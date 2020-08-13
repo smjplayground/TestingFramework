@@ -1,6 +1,5 @@
 package baseTest;
 
-
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;

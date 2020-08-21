@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ApiTestingFramework by packages]">
+  <test thread-count="5" name="studentApiTest(failed)">
+    <classes>
+      <class name="studentApiTest.PostAPITest">
+        <methods>
+          <include name="baseTest"/>
+          <include name="testUsingSer"/>
+        </methods>
+      </class> <!-- studentApiTest.PostAPITest -->
+    </classes>
+  </test> <!-- studentApiTest(failed) -->
+</suite> <!-- Failed suite [ApiTestingFramework by packages] -->
